@@ -12,7 +12,7 @@ const loop = (num) => {
 function App() {
     return (
         <div className='App'>
-            {loop(1010).map((r) => (
+            {loop(100).map((r) => (
                 <Test key={r} />
             ))}
         </div>
