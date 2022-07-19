@@ -2,14 +2,19 @@ import './App.css'
 const Test = () => {
     return <div>Hello world~</div>
 }
-const Test2 = () => {
-    return <div>qqqqqqqqqq</div>
+const loop = (num) => {
+    let arr = []
+    for (let i = 0; i <= num; i++) {
+        arr.push(i)
+    }
+    return arr
 }
 function App() {
     return (
         <div className='App'>
-            <Test />
-            <Test2 />
+            {loop(100).map((r) => (
+                <Test key={r} />
+            ))}
         </div>
     )
 }
