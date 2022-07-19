@@ -3,7 +3,7 @@ const Test = () => {
     return <div>Hello world~</div>
 }
 const Test2 = () => {
-    return <div>tqtqtqtq</div>
+    return <div>qqqqqqqqqq</div>
 }
 function App() {
     return (
