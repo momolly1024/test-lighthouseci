@@ -1,11 +1,13 @@
-import './App.css';
-
+import './App.css'
+const Test = () => {
+    return <div>Hello world~</div>
+}
 function App() {
-  return (
-    <div className="App">
-      opl
-    </div>
-  );
+    return (
+        <div className='App'>
+            <Test />
+        </div>
+    )
 }
 
-export default App;
+export default App
